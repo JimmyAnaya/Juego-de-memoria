@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css//media.css">
+    <title>wordsTimesMemory</title>
+</head>
+<body class="home-body">    
+    <header class="header">
+        <img class="header__imagenLogo" src="./img/LogoHeaderMasterName.png" alt="Logo Platzi Master">
+        <p class="header__nameAplication">Words Times Memory</p>
+    </header>
+    <main class="main">
+        <section class="main__scoreboard">
+            <p id="main__scoreboard--strikeId" class="main__scoreboard--strike">Strike</p>
+            <p id="main__scoreboard--levelId" class="main__scoreboard--level">Level 1</p>
+        </section>
+        <section class="main__game">
+
+            <div class="main__game--question">
+                <p id="word"></p>
+            </div>
+            <div class="main__game--response">
+                <button id="btnWord" class="btn_word">Solicitar Palabra</button>
+                <Input type="text" id="wordUser" name="wordUser" placeholder="Escribe la palabra que viste" onkeypress required></Input>
+                <button  type="menu" id="btnWordUser" class="btn_word"  disabled>Enviar palabra</button>
+               
+                <p id="resultResponse"></p>
+            </div>
+            <p id="resultGame"></p>
+        </section>
+      
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
