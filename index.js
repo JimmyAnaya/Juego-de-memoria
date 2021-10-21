@@ -159,7 +159,7 @@ function validation(wordUser, wordRandom){
 
             if(level > 3){
                 resultGame.style.color = "#F7EF05";
-                resultGame.innerHTML = 'HOME ROOM GANASTE EL JUEGO';
+                resultGame.innerHTML = 'HOME RUN GANASTE EL JUEGO';
                 level = 1;
                 strike = 0;
                 point = 0;
