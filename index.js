@@ -91,6 +91,7 @@ function validarTexto(){
 function borrarPalabra(){
     document.getElementById("word").style.color = '#FFFFFF';
     let inputWord = document.getElementById("wordUser")
+    wordMostrar = word.innerHTML = '';
     inputWord.disabled = false;
 }
 
